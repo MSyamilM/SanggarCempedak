@@ -1,0 +1,72 @@
+.prof{
+    border-radius: 15%;
+    border: 8px solid black;
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.top{
+    background-color: rgba(253, 226, 163, 0.8);
+    height: 100%;
+    width: 100%;
+    padding: 28px 0;
+    text-align: center;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    font-size: 75px;
+}
+
+.background{
+    background-color: aliceblue;
+    background-color: rgba(232, 213, 192, 0.67);
+    padding: 25px 0;
+}
+
+.desc{
+    white-space: pre-line;
+    text-align: center;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    padding: 15px 0;
+}
+
+li{
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+h1{
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+}
+
+.tutor{
+   display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgba(216, 146, 48, 0.673);
+    border-radius: 50px;
+    width: 90%;
+    border: 8px solid black;
+    margin: 60px;
+}
+
+.bahan{
+    white-space: pre-line;
+    margin-left: 180px;
+}
+
+.cara{
+    white-space: pre-line;
+}
